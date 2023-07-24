@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beshy App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="fs-1 fw-bold text-center mb-3">Beshywap🤸🤸🤸 Generator</div>
+        <label for="text" class="fs-4 my-1">Enter Your Text Here:</label>
+        <textarea class="form-control" id="text" rows="3" style="height: 300px; resize: none;"></textarea>
+      
+        <div class="button d-flex justify-content-end">
+            <button class="btn-convert btn btn-primary mt-3 me-2" id="convert">Convert</button>
+            <button class="btn-clear btn btn-primary mt-3" id="clear">Clear</button>
+        </div>
+        <div class="result-txt mt-3 fs-5 position-relative">Result:</div>
+        <div class="result-container position-relative">
+            <input type="text" id="inputResult" class="form-control p-3 position-absolute " readonly>
+            <i class="clipboard bi bi-clipboard position-absolute" id="copyClipboard"></i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js
+    "></script>
+</body>
+
+</html>
