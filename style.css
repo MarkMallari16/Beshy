@@ -29,7 +29,7 @@ body{
     color: var(--background) !important;
     background-color: var(--accent) !important;
 }
-.clipboard{
+.clipboard,.check{
     color: var(--background);
     font-size: 1.3rem;
     cursor: pointer;
@@ -38,4 +38,8 @@ body{
     padding: 2px 8px;
     top: 10px;
     right: 22px;
+    
+}
+.check{
+    display: none;
 }
